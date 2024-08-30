@@ -27,11 +27,15 @@
     }
 }
 */
-.header .container {
-  background-color: blue;
+.header .container .address-socialmedia {
+  display: flex;
+  justify-content: space-between;
 }
-.header .container .address .address-ingress {
-  color: red;
+.header .container .address-socialmedia .address .address-ingress {
+  color: blue;
+}
+.header .container .address-socialmedia .address .socialmedia {
+  color: green;
 }
 
 .hero {

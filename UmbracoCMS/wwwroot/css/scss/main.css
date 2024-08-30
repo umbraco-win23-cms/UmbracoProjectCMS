@@ -29,9 +29,13 @@
 */
 .header .container .address-socialmedia {
   display: flex;
+  justify-content: space-between;
 }
 .header .container .address-socialmedia .address .address-ingress {
-  color: red;
+  color: blue;
+}
+.header .container .address-socialmedia .address .socialmedia {
+  color: green;
 }
 
 .hero {
