@@ -15,20 +15,25 @@
   font-family: "Poppins", sans-serif;
   font-size: 13px;
 }
+.header .container .address-socialmedia .socialmedia {
+  display: flex;
+  align-items: center;
+}
 .header .container .address-socialmedia .socialmedia .meta {
   color: #FFFFFF;
-  border-right: 1px solid #FFFFFF;
   border-left: 1px solid #FFFFFF;
+  padding: 14px 10px;
 }
 .header .container .address-socialmedia .socialmedia .x {
   color: #FFFFFF;
   border-right: 1px solid #FFFFFF;
   border-left: 1px solid #FFFFFF;
+  padding: 14px 10px;
 }
 .header .container .address-socialmedia .socialmedia .linkedIn {
   color: #FFFFFF;
   border-right: 1px solid #FFFFFF;
-  border-left: 1px solid #FFFFFF;
+  padding: 14px 10px;
 }
 
 .hero {

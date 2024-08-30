@@ -26,23 +26,26 @@
             }
 
             .socialmedia {
+                display: flex;
+                align-items: center;
 
                 .meta {
                     color: #FFFFFF;
-                    border-right: 1px solid #FFFFFF;
                     border-left: 1px solid #FFFFFF;
+                    padding: 14px 10px;
                 }
 
                 .x {
                     color: #FFFFFF;
                     border-right: 1px solid #FFFFFF;
                     border-left: 1px solid #FFFFFF;
+                    padding: 14px 10px;
                 }
 
                 .linkedIn {
                     color: #FFFFFF;
                     border-right: 1px solid #FFFFFF;
-                    border-left: 1px solid #FFFFFF;
+                    padding: 14px 10px;
                 }
             }
         }
