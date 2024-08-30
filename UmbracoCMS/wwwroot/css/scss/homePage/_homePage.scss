@@ -3,53 +3,17 @@
 
 .header {
     .container {
-        // Styles for container go here
+        background-color: blue;
 
-        .address-socialmedia {
-            display: flex;
-
-            .address {
-                // Styles for address go here
-                .address-ingress {
-                    color: red;
-                }
-            }
-
-            .socialmedia {
-                // Styles for socialmedia go here
-                a {
-                    // Styles for social media links go here
-                    &.meta {
-                        // Styles for .meta class go here
-                    }
-
-                    &.x {
-                        // Styles for .x class go here
-                    }
-
-                    &.linkedIn {
-                        // Styles for .linkedIn class go here
-                    }
-                }
-            }
-        }
-
-        .navigation-bar {
-            // Styles for navigation-bar go here
-
-            .onatrix-logo {
-                // Styles for onatrix-logo go here
-            }
-
-            .site-navigation {
-                // Styles for site-navigation go here
-                a {
-                    // Styles for navigation links go here
-                }
+        .address {
+            .address-ingress {
+                color: red;
             }
         }
     }
 }
+
+
 
 
 

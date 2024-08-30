@@ -27,12 +27,13 @@
     }
 }
 */
-.header .container .address-socialmedia {
-  display: flex;
+.header .container {
+  background-color: blue;
 }
-.header .container .address-socialmedia .address .address-ingress {
+.header .container .address .address-ingress {
   color: red;
 }
+
 .hero {
   position: relative;
   width: 100%;
