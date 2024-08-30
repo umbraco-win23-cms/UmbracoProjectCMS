@@ -96,6 +96,10 @@
   font-family: "Poppins";
   font-size: 16px;
 }
+.header .container .navigation-bar .fa-magnifying-glass {
+  position: absolute;
+  margin-left: 101rem;
+}
 
 .hero {
   position: relative;
