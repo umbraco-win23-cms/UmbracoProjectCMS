@@ -1,5 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+.header {
+    .container {
+        // Styles for container go here
+
+        .address-socialmedia {
+            display: flex;
+
+            .address {
+                // Styles for address go here
+                .address-ingress {
+                    color: red;
+                }
+            }
+
+            .socialmedia {
+                // Styles for socialmedia go here
+                a {
+                    // Styles for social media links go here
+                    &.meta {
+                        // Styles for .meta class go here
+                    }
+
+                    &.x {
+                        // Styles for .x class go here
+                    }
+
+                    &.linkedIn {
+                        // Styles for .linkedIn class go here
+                    }
+                }
+            }
+        }
+
+        .navigation-bar {
+            // Styles for navigation-bar go here
+
+            .onatrix-logo {
+                // Styles for onatrix-logo go here
+            }
+
+            .site-navigation {
+                // Styles for site-navigation go here
+                a {
+                    // Styles for navigation links go here
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
 .hero {
     position: relative;
     width: 100%;
