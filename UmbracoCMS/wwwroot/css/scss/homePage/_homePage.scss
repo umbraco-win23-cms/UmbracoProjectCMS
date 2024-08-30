@@ -3,7 +3,7 @@
 
 .header {
     .container {
-        padding-left: 0; 
+        padding-left: 0;
         padding-right: 0;
 
         .address-socialmedia {
@@ -12,8 +12,8 @@
             justify-content: space-between;
             align-items: center;
             padding: 2px 10px;
-            width: 99vw; 
-            box-sizing: border-box; 
+            width: 99vw;
+            box-sizing: border-box;
 
             .address {
                 .address-ingress {
@@ -31,6 +31,31 @@
                     border-right: 1px solid #FFFFFF;
                     border-left: 1px solid #FFFFFF;
                 }
+            }
+        }
+
+        .navigation-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            img {
+                margin-left: 3rem;
+            }
+
+            .site-navigation {
+                display: flex;
+                justify-content: space-around;
+                width: 45%;
+                margin-right: 6rem;
+                gap: -80px;
+            }
+
+            .site-navigation a {
+                color: black;
+                font-family: "Poppins";
+                font-size: 16px;
+
             }
         }
     }
