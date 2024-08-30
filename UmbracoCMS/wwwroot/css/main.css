@@ -27,10 +27,6 @@
     }
 }
 */
-.header .container {
-  padding-left: 0;
-  padding-right: 0;
-}
 .header .container .address-socialmedia {
   background-color: #4F5955;
   display: flex;
@@ -40,17 +36,43 @@
   width: 99vw;
   box-sizing: border-box;
 }
+.header .container .address-socialmedia .address {
+  margin-left: 10rem;
+}
 .header .container .address-socialmedia .address .address-ingress {
   color: #FFFFFF;
   font-family: "Poppins", sans-serif;
   font-size: 13px;
 }
-.header .container .address-socialmedia .socialmedia .meta,
-.header .container .address-socialmedia .socialmedia .x,
+.header .container .address-socialmedia .socialmedia {
+  display: flex;
+}
+.header .container .address-socialmedia .socialmedia .meta {
+  border-left: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  padding-right: 1px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.header .container .address-socialmedia .socialmedia .x {
+  color: #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+  padding-top: 10px;
+  padding-left: 10px;
+}
 .header .container .address-socialmedia .socialmedia .linkedIn {
   color: #FFFFFF;
   border-right: 1px solid #FFFFFF;
   border-left: 1px solid #FFFFFF;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.header .container .address-socialmedia .socialmedia .meta {
+  margin-right: 10px;
+}
+.header .container .address-socialmedia .socialmedia .x {
+  margin-right: 10px;
 }
 .header .container .navigation-bar {
   display: flex;
@@ -109,6 +131,7 @@
   margin-bottom: 2rem;
   font-size: 70px;
   font-family: "Poppins", sans-serif;
+  margin-left: 32rem;
 }
 .hero .container .hero-content .ingress {
   color: #4F5955;
@@ -118,6 +141,7 @@
   font-size: 16px;
   margin-bottom: 3rem;
   font-family: "Poppins", sans-serif;
+  margin-left: 32rem;
 }
 .hero .container .hero-content .btn {
   background-color: #4F5955;
@@ -126,4 +150,5 @@
   padding: 15px 40px;
   border-radius: 3px;
   font-family: "Poppins", sans-serif;
+  margin-left: 32rem;
 }

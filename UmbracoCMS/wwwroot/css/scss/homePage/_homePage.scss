@@ -3,8 +3,7 @@
 
 .header {
     .container {
-        padding-left: 0;
-        padding-right: 0;
+
 
         .address-socialmedia {
             background-color: #4F5955;
@@ -16,6 +15,7 @@
             box-sizing: border-box;
 
             .address {
+                margin-left: 10rem;
                 .address-ingress {
                     color: #FFFFFF;
                     font-family: "Poppins", sans-serif;
@@ -24,13 +24,39 @@
             }
 
             .socialmedia {
-                .meta,
-                .x,
-                .linkedIn {
-                    color: #FFFFFF;
-                    border-right: 1px solid #FFFFFF;
-                    border-left: 1px solid #FFFFFF;
-                }
+                display: flex;
+            }
+
+            .socialmedia .meta {
+                border-left: 1px solid #FFFFFF;
+                color: #FFFFFF;
+                padding-right: 1px;
+                padding-top: 10px;
+                padding-left: 10px;
+            }
+
+            .socialmedia .x {
+                color: #FFFFFF;
+                border-left: 1px solid #FFFFFF;
+                padding-top: 10px;
+                padding-left: 10px;
+            }
+
+            .socialmedia .linkedIn {
+                color: #FFFFFF;
+                border-right: 1px solid #FFFFFF;
+                border-left: 1px solid #FFFFFF;
+                padding-top: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            .socialmedia .meta {
+                margin-right: 10px;
+            }
+
+            .socialmedia .x {
+                margin-right: 10px;
             }
         }
 
@@ -55,7 +81,6 @@
                 color: black;
                 font-family: "Poppins";
                 font-size: 16px;
-
             }
         }
     }
@@ -93,7 +118,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-           
+
 
 
         .hero-content {
@@ -111,6 +136,7 @@
                 margin-bottom: 2rem;
                 font-size: 70px;
                 font-family: "Poppins", sans-serif;
+                margin-left: 32rem;
             }
 
             .ingress {
@@ -121,6 +147,7 @@
                 font-size: 16px;
                 margin-bottom: 3rem;
                 font-family: "Poppins", sans-serif;
+                margin-left: 32rem;
             }
 
             .btn {
@@ -130,6 +157,7 @@
                 padding: 15px 40px;
                 border-radius: 3px;
                 font-family: "Poppins", sans-serif;
+                margin-left: 32rem;
             }
         }
     }
