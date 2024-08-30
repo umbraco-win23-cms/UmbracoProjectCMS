@@ -80,9 +80,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .header .container .navigation-bar img {
   margin-left: 20rem;
+  width: 8rem;
+  height: auto;
 }
 .header .container .navigation-bar .site-navigation {
   display: flex;
