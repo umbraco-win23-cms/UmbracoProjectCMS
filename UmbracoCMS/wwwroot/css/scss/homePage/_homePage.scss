@@ -2,17 +2,18 @@
 
 
 .header {
-    width: 100%;
-    overflow: hidden;
+    
 
     .container {
 
         .address-socialmedia {
-            background-color: blue;
+            background-color: yellow;
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 2px 10px;
+            width: 100%;
+            overflow: hidden;
 
 
             .address {
