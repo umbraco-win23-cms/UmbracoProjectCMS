@@ -27,11 +27,18 @@
     }
 }
 */
-.header .container {
-  background-color: blue;
+.header {
+  width: 100%;
+  overflow: hidden;
 }
-.header .container .address .address-ingress {
-  color: red;
+.header .container .address-socialmedia {
+  background-color: #4F5955;
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+.header .container .address-socialmedia .address .address-ingress {
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
 }
 
 .hero {

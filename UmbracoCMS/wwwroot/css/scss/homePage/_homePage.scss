@@ -2,12 +2,24 @@
 
 
 .header {
-    .container {
-        background-color: blue;
+    width: 100%;
+    overflow: hidden;
 
-        .address {
-            .address-ingress {
-                color: red;
+    .container {
+
+        .address-socialmedia {
+            background-color: #4F5955;
+            display: grid;
+            grid-template-columns: 1fr auto;
+
+
+            .address {
+
+
+                .address-ingress {
+                    color: #FFFFFF;
+                    font-family: "Poppins", sans-serif;
+                }
             }
         }
     }
