@@ -45,12 +45,15 @@
 }
 .header .container .address-socialmedia .socialmedia .meta {
   color: #FFFFFF;
+  border: 1px solid #FFFFFF;
 }
 .header .container .address-socialmedia .socialmedia .x {
   color: #FFFFFF;
+  border: 1px solid #FFFFFF;
 }
 .header .container .address-socialmedia .socialmedia .linkedIn {
   color: #FFFFFF;
+  border: 1px solid #FFFFFF;
 }
 
 .hero {
