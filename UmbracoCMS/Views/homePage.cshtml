@@ -24,14 +24,13 @@
 		<div class="navigation-bar">
 			<img class="onatrix-logo" alt="" src="" />
 			<div class="site-navigation">
-				<a>@Model.Value("headerAboutSite")</a>
-				<a>@Model.Value("headerServicesSite")</a>
-				<a>@Model.Value("headerProjectsSite")</a>
-				<a>@Model.Value("headerContactSite")</a>
+				<a>@Model?.Value("headerAboutSite")</a>
+				<a>@Model?.Value("headerServicesSite")</a>
+				<a>@Model?.Value("headerProjectsSite")</a>
+				<a>@Model?.Value("headerContactSite")</a>
 			</div>
 		</div>
 	</div>
-
 </section>
 
 
@@ -74,7 +73,6 @@
 			</div>
 
 			<div class="form-container">
-
 			</div>
 		</div>
 	</div>
