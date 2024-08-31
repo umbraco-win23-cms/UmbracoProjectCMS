@@ -181,30 +181,52 @@
 }
 
 .about-us {
-    margin-top: -200px;
-    .container{
-        .content{
-            .headline{
+    margin-top: -350px;
+    margin-left: 18rem;
 
+    .container {
+        .content {
+            .headline {
+                font-family: "Poppins", sans-serif;
+                color: #4F5955;
+                font-size: 16px;
+
+                h5 {
+                    color: #D9C3A9;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+
+                h2 {
+                }
             }
-            .quote{
 
+            .quote {
+                font-family: "Poppins", sans-serif;
+                color: #7B7B7B;
+                margin-right: 1rem;
             }
-            .signature-container{
-                .signature{
-                    .signature-image{
 
+            p {
+                font-family: "Poppins", sans-serif;
+                font-size: 14px;
+                color: #535656;
+            }
+
+            .signature-container {
+                .signature {
+
+                    .signature-image {
                     }
-                    .clarification{
 
+                    .clarification {
+                        font-family: "Poppins", sans-serif;
                     }
                 }
             }
-            .form-container{
 
+            .form-container {
             }
         }
-
     }
-
 }
