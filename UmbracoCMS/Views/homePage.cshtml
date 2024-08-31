@@ -25,10 +25,10 @@
 		<div class="navigation-bar">
 			<img class="onatrix-logo" alt="" src="@logoImage" />
 			<div class="site-navigation">
-				<a>@Model?.Value("headerAboutSite")</a>
-				<a>@Model?.Value("headerServicesSite")</a>
-				<a>@Model?.Value("headerProjectsSite")</a>
-				<a>@Model?.Value("headerContactSite")</a>
+				<a href="@Model?.Value("headerAboutSiteUrl")">@Model?.Value("headerAboutSite")</a>
+				<a href="@Model?.Value("headerServicesSiteUrl")">@Model?.Value("headerServicesSite")</a>
+				<a href ="@Model?.Value("headerProjectsSiteUrl")"> @Model?.Value("headerProjectsSite")</a>
+				<a href="@Model?.Value("headerContactSiteUrl")">@Model?.Value("headerContactSite")</a>
 			</div>
 			<i class="fa-solid fa-magnifying-glass"></i>
 		</div>
