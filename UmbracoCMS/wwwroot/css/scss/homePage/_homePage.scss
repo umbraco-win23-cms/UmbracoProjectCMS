@@ -153,7 +153,7 @@
                 margin-bottom: 2rem;
                 font-size: 70px;
                 font-family: "Poppins", sans-serif;
-                margin-left: 32rem;
+                margin-left: 18rem;
             }
 
             .ingress {
@@ -164,7 +164,7 @@
                 font-size: 16px;
                 margin-bottom: 3rem;
                 font-family: "Poppins", sans-serif;
-                margin-left: 32rem;
+                margin-left: 18rem;
             }
 
             .btn {
@@ -174,7 +174,7 @@
                 padding: 15px 40px;
                 border-radius: 3px;
                 font-family: "Poppins", sans-serif;
-                margin-left: 32rem;
+                margin-left: 18rem;
             }
         }
     }
@@ -182,40 +182,29 @@
 
 .about-us {
     margin-top: -200px;
+    .container{
+        .content{
+            .headline{
 
-    .container {
-
-
-        .content {
-            .headline {
-                h5 {
-
-                }
-
-                h2 {
-                }
             }
+            .quote{
 
-            .quote {
             }
+            .signature-container{
+                .signature{
+                    .signature-image{
 
-            p {
-            }
-
-            .signature-container {
-                .signature {
-                    .signature-image {
                     }
+                    .clarification{
 
-                    .clarification {
-                        .name {
-                        }
                     }
                 }
             }
+            .form-container{
 
-            .form-container {
             }
         }
+
     }
+
 }
