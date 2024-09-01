@@ -65,8 +65,13 @@
 				<h5>@Model?.Value("aboutSectionTitle")</h5>
 				<h2>@Model?.Value("aboutHeadline")</h2>
 			</div>
-			<blockquote class="quote">@Model?.Value("aboutQuote")</blockquote>
-			<p>@Model?.Value("aboutText")</p>
+			    <blockquote class="quote">
+        			@Html.Raw(Model?.Value<string>("aboutQuote")?.Replace("financial", "financial<br>"))
+    			</blockquote>
+			<p>@Html.Raw(Model?.Value<string>("aboutText")?
+				.Replace("sint", "sint<br>")
+				.Replace("laborum.", "laborum.<br>"))
+				</p>
 			<div class="signature-container">
 				<div class="signature">
 					<img class="signature-image" src="@signatureImage" alt="@Model?.Value("aboutSignature")" />
