@@ -152,6 +152,9 @@
 .about-us .container .content .quote {
   font-family: "Poppins", sans-serif;
   color: #7B7B7B;
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
 }
 .about-us .container .content p {
   font-family: "Poppins", sans-serif;
