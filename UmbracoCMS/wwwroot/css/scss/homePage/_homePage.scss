@@ -6,7 +6,7 @@
 
 
     .container {
-
+        
 
 
         .address-socialmedia {
@@ -15,11 +15,9 @@
             justify-content: space-between;
             align-items: center;
             padding: 5px 10px;
-            width: 98.8vw;
+            width: 99vw;
             box-sizing: border-box;
             align-items: center;
-            overflow: hidden;
-            
 
             .address {
                 margin-left: 10rem;
@@ -97,6 +95,7 @@
                 font-size: 16px;
                 font-weight: 600;
                 text-decoration: none;
+                
             }
 
             .fa-magnifying-glass {
@@ -150,7 +149,7 @@
 
 
             .headline {
-                color: #535656;
+                color: red;
                 width: 550px;
                 word-wrap: break-word;
                 overflow-wrap: break-word;
@@ -232,6 +231,20 @@
             }
 
             .form-container {
+            }
+        }
+    }
+}
+
+.our-services {
+    .container {
+        .text-content {
+            .h5 {
+                color: red;
+            }
+
+            .h2 {
+                color: #535656;
             }
         }
     }
