@@ -108,7 +108,7 @@
   margin-top: 2rem;
 }
 .hero .container .hero-content .headline {
-  color: #535656;
+  color: red;
   width: 550px;
   word-wrap: break-word;
   overflow-wrap: break-word;
