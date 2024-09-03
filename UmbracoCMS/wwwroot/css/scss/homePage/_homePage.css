@@ -106,7 +106,7 @@
   text-align: left;
   margin-top: 2rem;
 }
-.hero .container .hero-content .headline {
+.hero .container .hero-content .hero-headline {
   color: #535656;
   width: 550px;
   word-wrap: break-word;
@@ -140,12 +140,12 @@
   margin-top: -350px;
   margin-left: 18rem;
 }
-.about-us .container .content .headline {
+.about-us .container .content .about-us-headline {
   font-family: "Poppins", sans-serif;
   color: #4F5955;
   font-size: 16px;
 }
-.about-us .container .content .headline h5 {
+.about-us .container .content .about-us-headline h5 {
   color: #D9C3A9;
   font-size: 14px;
   font-weight: bold;

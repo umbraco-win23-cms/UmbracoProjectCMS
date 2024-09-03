@@ -48,7 +48,7 @@
 	<img class="background" src="@backgroundImage" alt="@Model?.Value("heroBackgroundImage")" />
 	<div class="container">
 		<div class="hero-content">
-			<h1 class="headline">@Model?.Value("heroHeadline")</h1>
+			<h1 class="hero-headline">@Model?.Value("heroHeadline")</h1><!--Message for MY: I changed headline to "hero-headline"-->
 			<p class="ingress">@Model?.Value("heroText")</p>
 			<div>
 				<a href="@Model?.Value("heroButtonUrl")" class="btn btn-primary">@Model?.Value("heroButtonText")</a>
@@ -61,7 +61,7 @@
 <section class="about-us">
 	<div class="container">
 		<div class="content">
-			<div class="headline">
+			<div class="about-us-headline">
 				<h5>@Model?.Value("aboutSectionTitle")</h5>
 				<h2>@Model?.Value("aboutHeadline")</h2>
 			</div>
@@ -93,6 +93,12 @@
 			<h5>@Model?.Value("ourServicesTitle")</h5>
 			<h2>@Model?.Value("ourServicesHeadline")</h2>
 		</div>
+
+	</div>
+</section>
+
+<section>
+	<div class="container">
 
 	</div>
 </section>

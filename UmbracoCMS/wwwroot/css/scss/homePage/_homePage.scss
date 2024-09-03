@@ -149,7 +149,7 @@
             margin-top: 2rem;
 
 
-            .headline {
+            .hero-headline {
                 color: #535656;
                 width: 550px;
                 word-wrap: break-word;
@@ -190,7 +190,7 @@
 
     .container {
         .content {
-            .headline {
+            .about-us-headline {
                 font-family: "Poppins", sans-serif;
                 color: #4F5955;
                 font-size: 16px;
@@ -232,6 +232,19 @@
             }
 
             .form-container {
+            }
+        }
+    }
+}
+
+.our-services{
+    .container{
+        .text-content{
+            h5{
+
+            }
+            h4{
+
             }
         }
     }
