@@ -287,3 +287,30 @@
   text-align: center;
   margin-top: -30px;
 }
+.success-story .container .success-story-numbers-div {
+  display: flex;
+  justify-content: center;
+}
+.success-story .container .success-story-numbers-div .numbers-left .number {
+  font-size: 90px;
+  font-weight: 600;
+  color: #D9C3A9;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+.success-story .container .success-story-numbers-div .numbers-middle .number {
+  font-size: 90px;
+  font-weight: 600;
+  color: #D9C3A9;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-left: 120px;
+}
+.success-story .container .success-story-numbers-div .numbers-right .number {
+  font-size: 90px;
+  font-weight: 600;
+  color: #D9C3A9;
+  font-family: "Poppins", sans-serif;
+  text-align: right;
+  margin-right: 100px;
+}
