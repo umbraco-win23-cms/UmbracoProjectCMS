@@ -266,7 +266,16 @@
 }
 
 .trusted {
+    .worldmap-img {
+        position: absolute;
+        left: 300px;
+        z-index: 1;
+    }
+
     .container {
+        position: relative;
+        z-index: 2;
+
         .trusted-content {
             margin-bottom: 3rem;
 
@@ -290,9 +299,14 @@
             margin-left: 52.5rem;
             margin-top: 3rem;
         }
-        .people-img{
-            margin-top:4rem;
-            margin-left: 21rem;
+
+
+        .people-img {
+            margin-left: 355px;
+            margin-top: 60px;
+
+            .people {
+            }
         }
     }
 }

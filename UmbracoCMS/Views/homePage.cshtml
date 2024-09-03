@@ -102,7 +102,9 @@
 
 <!--Trusted section-->
 <section class="trusted">
-	<div class= "worldMap-background" style="background image:url(@trustedImage1); background-size: cover; background-position: 60%"></div>
+	<div class="worldmap-img">
+		<img src="@trustedImage1" alt="@Model?.Value("trustedImage1")" />
+	</div>
 	<div class="container">
 		<div class="trusted-content">
 			<h2>
@@ -111,13 +113,12 @@
 			<p>
 				@Html.Raw(@Model?.Value<string>("trustedText")?.Replace("Nam", "Nam<br>"));
 			</p>
-
 		</div>
 		<div class="btn-div">
 			<a href="@Model?.Value("trustedButtonUrl") class="btn btn-primary">@Model?.Value("trustedButtonText")</a>
 		</div>
 		<div class="people-img">
-			<img src="@trustedImage2" alt="@Model?.Value("trustedImage2")/>
+			<img class="people" src="@trustedImage2" alt="@Model?.Value("trustedImage2")  />
 		</div>
 	</div>
 </section>
