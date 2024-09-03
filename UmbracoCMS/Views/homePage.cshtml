@@ -7,8 +7,8 @@
 	var backgroundImage = Model?.Value<IPublishedContent>("heroBackgroundImage")?.Url() ?? "";
 	var signatureImage = Model?.Value<IPublishedContent>("aboutSignatureImage")?.Url() ?? "";
 	var logoImage = Model?.Value<IPublishedContent>("headerOnatrixLogo")?.Url() ?? "";
-	var trustedImage1 = Model?.Value<IPublishedContent>("trustedImage1") ?.Url() ?? "";
-	var trustedImage2 = Model?.Value<IPublishedContent>("trustedImage2") ?.Url() ?? "";
+	var trustedImage1 = Model?.Value<IPublishedContent>("trustedImage1")?.Url() ?? "";
+	var trustedImage2 = Model?.Value<IPublishedContent>("trustedImage2")?.Url() ?? "";
 }
 
 <!--Header section-->
@@ -29,7 +29,7 @@
 			<div class="site-navigation">
 				<a href="@Model?.Value("headerAboutSiteUrl")">@Model?.Value("headerAboutSite")</a>
 				<a href="@Model?.Value("headerServicesSiteUrl")">@Model?.Value("headerServicesSite")</a>
-				<a href ="@Model?.Value("headerProjectsSiteUrl")"> @Model?.Value("headerProjectsSite")</a>
+				<a href="@Model?.Value("headerProjectsSiteUrl")"> @Model?.Value("headerProjectsSite")</a>
 				<a href="@Model?.Value("headerContactSiteUrl")">@Model?.Value("headerContactSite")</a>
 			</div>
 			<i class="fa-solid fa-magnifying-glass"></i>
@@ -62,13 +62,14 @@
 				<h5>@Model?.Value("aboutSectionTitle")</h5>
 				<h2>@Model?.Value("aboutHeadline")</h2>
 			</div>
-			    <blockquote class="quote">
-        			@Html.Raw(Model?.Value<string>("aboutQuote")?.Replace("financial", "financial<br>"))
-    			</blockquote>
-			<p>@Html.Raw(Model?.Value<string>("aboutText")?
-				.Replace("sint", "sint<br>")
-				.Replace("laborum.", "laborum.<br>"))
-				</p>
+			<blockquote class="quote">
+				@Html.Raw(Model?.Value<string>("aboutQuote")?.Replace("financial", "financial<br>"))
+			</blockquote>
+			<p>
+				@Html.Raw(Model?.Value<string>("aboutText")?
+									.Replace("sint", "sint<br>")
+									.Replace("laborum.", "laborum.<br>"))
+			</p>
 			<div class="signature-container">
 				<div class="signature">
 					<img class="signature-image" src="@signatureImage" alt="@Model?.Value("aboutSignature")" />
@@ -90,9 +91,9 @@
 		<div class="our-services-content">
 			<h5>
 				@Model?.Value("ourServicesTitle")
-			</h5> 
+			</h5>
 			<h2>
-					@Html.Raw(Model?.Value<string>("ourServicesHeadline")?.Replace("Solutions", "Solutions<br>"))
+				@Html.Raw(Model?.Value<string>("ourServicesHeadline")?.Replace("Solutions", "Solutions<br>"))
 			</h2>
 		</div>
 
@@ -110,14 +111,14 @@
 				@Html.Raw(Model?.Value<string>("trustedHeadline")?.Replace("than", "than<br>").Replace("4.000+ clients", "<span class='highlight'>4.000+ clients</span>"))
 			</h2>
 			<p>
-				@Html.Raw(@Model?.Value<string>("trustedText")?.Replace("Nam", "Nam<br>"));
+				@Html.Raw(@Model?.Value<string>("trustedText")?.Replace("Nam", "Nam<br>"))
 			</p>
 		</div>
 		<div class="btn-div">
 			<a href="@Model?.Value("trustedButtonUrl") class="btn btn-primary">@Model?.Value("trustedButtonText")</a>
 		</div>
 		<div class="people-img">
-			<img class="people" src="@trustedImage2" alt="@Model?.Value("trustedImage2")  />
+			<img class="people" src="@trustedImage2" alt='@Model?.Value("trustedImage2")' />
 		</div>
 	</div>
 </section>
@@ -133,15 +134,15 @@
 		</div>
 		<div class="success-story-numbers-div">
 			<div class="numbers-left">
-				<p>@Model?.Value("successStoryNumbersLeft")</p>
+				<p class="number">@Model?.Value("successStoryNumbersLeft")</p>
 				<p>@Model?.Value("successStoryTextNumberLeft")</p>
 			</div>
 			<div class="numbers-middle">
-				<p>@Model?.Value("successStoryNumbersMiddle")</p>
+				<p class="number">@Model?.Value("successStoryNumbersMiddle")</p>
 				<p>@Model?.Value("successStoryTextNumbersMiddle")</p>
 			</div>
 			<div class="numbers-right">
-				<p>@Model?.Value("successStoryNumbersRight")</p>
+				<p class="number">@Model?.Value("successStoryNumbersRight")</p>
 				<p>@Model?.Value("successStoryTextNumbersRight")</p>
 			</div>
 		</div>

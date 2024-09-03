@@ -312,7 +312,11 @@
 }
 
 .success-story {
+    background-color: #4F5955;
+    height: 100vh;
     .container {
+
+
         .success-story-headline {
             h5 {
             }
@@ -323,27 +327,34 @@
 
         .success-story-numbers-div {
             .numbers-left {
+                .number {
+                }
+
                 p {
                 }
             }
 
             .numbers-middle {
+                .number {
+                }
+
                 p {
                 }
             }
 
             .numbers-right {
+                .number {
+                }
+
                 p {
                 }
             }
         }
-        img{
 
+        img {
         }
-        img{
-            .worldMap{
 
-            }
+        .worldMap {
         }
     }
 }
