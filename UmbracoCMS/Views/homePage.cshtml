@@ -128,21 +128,21 @@
 <section class="success-story">
 	<div class="container">
 		<div class="success-story-headline">
-			<h5>@Model.Value("successStoryTitle")</h5>
-			<h2>@Model.Value("successStoryHeadline")</h2>
+			<h5>@Model?.Value("successStoryTitle")</h5>
+			<h2>@Model?.Value("successStoryHeadline")</h2>
 		</div>
 		<div class="success-story-numbers-div">
 			<div class="numbers-left">
-				<p>@Model.Value("successStoryNumbersLeft")</p>
-				<p>@Model.Value("successStoryTextNumberLeft")</p>
+				<p>@Model?.Value("successStoryNumbersLeft")</p>
+				<p>@Model?.Value("successStoryTextNumberLeft")</p>
 			</div>
 			<div class="numbers-middle">
-				<p>@Model.Value("successStoryNumbersMiddle")</p>
-				<p>@Model.Value("successStoryTextNumbersMiddle")</p>
+				<p>@Model?.Value("successStoryNumbersMiddle")</p>
+				<p>@Model?.Value("successStoryTextNumbersMiddle")</p>
 			</div>
 			<div class="numbers-right">
-				<p>@Model.Value("successStoryNumbersRight")</p>
-				<p>@Model.Value("successStoryTextNumbersRight")</p>
+				<p>@Model?.Value("successStoryNumbersRight")</p>
+				<p>@Model?.Value("successStoryTextNumbersRight")</p>
 			</div>
 		</div>
 		<img /> <!--video, how do we do here?-->
