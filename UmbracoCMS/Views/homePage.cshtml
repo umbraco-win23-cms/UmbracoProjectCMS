@@ -135,15 +135,21 @@
 		<div class="success-story-numbers-div">
 			<div class="numbers-left">
 				<p class="number">@Model?.Value("successStoryNumbersLeft")</p>
-				<p>@Model?.Value("successStoryTextNumberLeft")</p>
+				<p>
+					@Html.Raw(Model?.Value<string>("successStoryTextNumberLeft")?.Replace("been", "been<br>"))
+				</p>
 			</div>
 			<div class="numbers-middle">
 				<p class="number">@Model?.Value("successStoryNumbersMiddle")</p>
-				<p>@Model?.Value("successStoryTextNumbersMiddle")</p>
+				<p>
+					@Html.Raw(Model?.Value<string>("successStoryTextNumbersMiddle")?.Replace("been", "been<br>"))
+				</p>
 			</div>
 			<div class="numbers-right">
 				<p class="number">@Model?.Value("successStoryNumbersRight")</p>
-				<p>@Model?.Value("successStoryTextNumbersRight")</p>
+				<p>
+					@Html.Raw(Model?.Value<string>("successStoryTextNumbersRight")?.Replace("been", "been<br>"))
+				</p>
 			</div>
 		</div>
 		<img /> <!--video, how do we do here?-->

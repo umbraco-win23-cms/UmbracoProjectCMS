@@ -346,6 +346,7 @@
 
 
             .numbers-left {
+
                 .number {
                     font-size: 90px;
                     font-weight: 600;
@@ -355,34 +356,52 @@
                 }
 
                 p {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #FFFFFF;
+                    font-family: "Poppins", sans-serif;
+                    text-align: center;
                 }
             }
 
             .numbers-middle {
+                padding-left: 110px;
+                padding-right: 110px;
+
                 .number {
                     font-size: 90px;
                     font-weight: 600;
                     color: #D9C3A9;
                     font-family: "Poppins", sans-serif;
                     text-align: center;
-                    margin-left: 120px;
+                    margin-left: 0;
                 }
 
                 p {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #FFFFFF;
+                    font-family: "Poppins", sans-serif;
+                    text-align: center;
                 }
             }
 
             .numbers-right {
+
                 .number {
                     font-size: 90px;
                     font-weight: 600;
                     color: #D9C3A9;
                     font-family: "Poppins", sans-serif;
                     text-align: right;
-                    margin-right: 100px;
                 }
 
                 p {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #FFFFFF;
+                    font-family: "Poppins", sans-serif;
+                    text-align: right;
                 }
             }
         }
