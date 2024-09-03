@@ -86,7 +86,7 @@
 <!--Our services section-->
 <section class="our-services">
 	<div class="container">
-		<div class="text-content">
+		<div class="our-services-content">
 			<h5>
 				@Model?.Value("ourServicesTitle")
 			</h5> 
@@ -97,6 +97,20 @@
 
 	</div>
 </section>
+
+<!--Trusted section-->
+<section class="trusted">
+	<div class="container">
+		<div class="trusted-content">
+			<h5>@Model?.Value("trustedHeadline")</h5>
+			<h2>@Model?.Value("trustedText")</h2>
+		</div>
+		<div>
+			<a href="@Model.Value("trustedButtonUrl") class="btn">@Model.Value("trustedButtonText")</a>
+		</div>
+	</div>
+</section>
+
 
 
 <!--Success story section-->
