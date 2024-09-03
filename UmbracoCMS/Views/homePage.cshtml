@@ -7,6 +7,8 @@
 	var backgroundImage = Model?.Value<IPublishedContent>("heroBackgroundImage")?.Url() ?? "";
 	var signatureImage = Model?.Value<IPublishedContent>("aboutSignatureImage")?.Url() ?? "";
 	var logoImage = Model?.Value<IPublishedContent>("headerOnatrixLogo")?.Url() ?? "";
+	var trustedImage1 = Model?.Value<IPublishedContent>("trustedImage1") ?.Url() ?? "";
+	var trustedImage2 = Model?.Value<IPublishedContent>("trustedImage2") ?.Url() ?? "";
 }
 
 <!--Header section-->
@@ -100,6 +102,7 @@
 
 <!--Trusted section-->
 <section class="trusted">
+	<div class= "worldMap-background" style="background image:url(@trustedImage1); background-size: cover; background-position: 60%"></div>
 	<div class="container">
 		<div class="trusted-content">
 			<h2>
@@ -110,8 +113,11 @@
 			</p>
 
 		</div>
-		<div>
+		<div class="btn-div">
 			<a href="@Model?.Value("trustedButtonUrl") class="btn btn-primary">@Model?.Value("trustedButtonText")</a>
+		</div>
+		<div class="people-img">
+			<img src="@trustedImage2" alt="@Model?.Value("trustedImage2")/>
 		</div>
 	</div>
 </section>
