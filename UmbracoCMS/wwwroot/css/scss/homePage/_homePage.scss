@@ -243,19 +243,23 @@
         background-color: #F7F7F7;
         height: 100vh;
 
-        .text-content {
+        .text-content {           
             font-family: "Poppins", sans-serif;
             color: #4F5955;
             font-size: 16px;
             margin-left: 35rem;
+            margin-top: 5rem;
 
             h5 {
                 color: #D9C3A9;
                 font-size: 14px;
                 font-weight: bold;
+                margin-left: 20rem;
             }
 
             h2 {
+                margin-left:6rem;
+                font-size: 40px;
             }
         }
     }

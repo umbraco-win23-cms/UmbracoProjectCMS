@@ -87,8 +87,12 @@
 <section class="our-services">
 	<div class="container">
 		<div class="text-content">
-			<h5>@Model?.Value("ourServicesTitle")</h5>
-			<h2>@Model?.Value("ourServicesHeadline")</h2>
+			<h5>
+				@Model?.Value("ourServicesTitle")
+			</h5> 
+			<h2>
+					@Html.Raw(Model?.Value<string>("ourServicesHeadline")?.Replace("Solutions", "Solutions<br>"))
+			</h2>
 		</div>
 
 	</div>
