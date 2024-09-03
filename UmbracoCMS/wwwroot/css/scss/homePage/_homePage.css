@@ -191,6 +191,9 @@
   text-align: center;
 }
 
+.trusted .container .trusted-content {
+  margin-bottom: 3rem;
+}
 .trusted .container .trusted-content h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -198,7 +201,6 @@
   font-size: 40px;
   color: #4F5955;
   text-align: center;
-  margin-left: 0rem;
   text-align: center;
 }
 .trusted .container .trusted-content h2 .highlight {
@@ -211,5 +213,15 @@
   font-size: 16px;
   color: #535656;
   text-align: center;
-  margin-left: 20rem;
+}
+.trusted .container a {
+  background-color: #4F5955;
+  color: #F2EDDC;
+  text-decoration: none;
+  padding: 15px 40px;
+  border-radius: 3px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 18rem;
+  margin-left: 52.5rem;
+  margin-top: 3rem;
 }

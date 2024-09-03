@@ -104,12 +104,14 @@
 		<div class="trusted-content">
 			<h2>
 				@Html.Raw(Model?.Value<string>("trustedHeadline")?.Replace("than", "than<br>").Replace("4.000+ clients", "<span class='highlight'>4.000+ clients</span>"))
-				</h2>
-			<p>@Model?.Value("trustedText")</p>
+			</h2>
+			<p>
+				@Html.Raw(@Model?.Value<string>("trustedText")?.Replace("Nam", "Nam<br>"));
+			</p>
 
 		</div>
 		<div>
-			<a href="@Model?.Value("trustedButtonUrl") class="btn">@Model.Value("trustedButtonText")</a>
+			<a href="@Model?.Value("trustedButtonUrl") class="btn btn-primary">@Model?.Value("trustedButtonText")</a>
 		</div>
 	</div>
 </section>
