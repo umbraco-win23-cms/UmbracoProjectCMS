@@ -102,11 +102,14 @@
 <section class="trusted">
 	<div class="container">
 		<div class="trusted-content">
-			<h5>@Model?.Value("trustedText")</h5>
-			<h2>@Model?.Value("trustedHeadline")</h2>
+			<h2>
+				@Html.Raw(Model?.Value<string>("trustedHeadline")?.Replace("than", "than<br>"))
+			</h2>
+			<p>@Model?.Value("trustedText")</p>
+
 		</div>
 		<div>
-			<a href="@Model.Value("trustedButtonUrl") class="btn">@Model.Value("trustedButtonText")</a>
+			<a href="@Model?.Value("trustedButtonUrl") class="btn">@Model.Value("trustedButtonText")</a>
 		</div>
 	</div>
 </section>

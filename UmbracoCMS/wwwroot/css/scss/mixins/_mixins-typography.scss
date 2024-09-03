@@ -1,12 +1,16 @@
 @mixin text {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
+    font-size: 16px;
     color: #535656;
+    text-align: center;
 }
 
 @mixin headings {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 40px;
     color: #4F5955;
+    text-align: center;
 }
