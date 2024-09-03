@@ -201,6 +201,10 @@
   margin-left: 0rem;
   text-align: center;
 }
+.trusted .container .trusted-content h2 .highlight {
+  color: #D9C3A9;
+  font-weight: bold;
+}
 .trusted .container .trusted-content p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;

@@ -267,10 +267,16 @@
 .trusted {
     .container {
         .trusted-content {
+
             h2 {
                 @include headings;
                 margin-left: 0rem;
                 text-align: center;
+
+                .highlight {
+                    color: #D9C3A9;
+                    font-weight: bold;
+                }
             }
 
             p {

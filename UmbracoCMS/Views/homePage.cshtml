@@ -103,8 +103,8 @@
 	<div class="container">
 		<div class="trusted-content">
 			<h2>
-				@Html.Raw(Model?.Value<string>("trustedHeadline")?.Replace("than", "than<br>"))
-			</h2>
+				@Html.Raw(Model?.Value<string>("trustedHeadline")?.Replace("than", "than<br>").Replace("4.000+ clients", "<span class='highlight'>4.000+ clients</span>"))
+				</h2>
 			<p>@Model?.Value("trustedText")</p>
 
 		</div>
