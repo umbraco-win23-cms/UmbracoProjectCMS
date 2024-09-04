@@ -4,11 +4,13 @@
 @{
 	Layout = "mainLayout.cshtml";
 	ViewBag.Title = Model?.Value("pageTitle") ?? null;
-	var logoImage = Model?.Value<IPublishedContent>("headerOnatrixLogo")?.Url() ?? "";
+	var logoImage = Model?.Value<IPublishedContent>("headerOnatrixLogo")?.Url() ?? "";	
+	var aboutUsBackground1 = Model?.Value<IPublishedContent>("aboutUsBackground1")?.Url() ?? "";
+	var aboutUsBackground2 = Model?.Value<IPublishedContent>("aboutUsBackground2")?.Url() ?? "";		
 }
 
 
-
+<!--Header section-->
 <section class="header">
 	<div class="container">
 		<div class="address-socialmedia">
@@ -35,20 +37,20 @@
 </section>
 
 
-
+<!--About Us section-->
 <section class="about-us">
-	<div class="background-color">@Model?.Value("aboutUsBackground")</div>
+	<div class="background-color">@Model.Value("aboutBackgroundColor")</div>
 	<div class="container">
 		<div class="overview">
-			<h2>@Model?.Value("aboutUsHeadline")</h2>
+			<h2>@Model.Value("aboutHeadlineTitle")</h2>
 			<div class="title-page">
-				<p class="home-ingress">@Model?.Value("aboutUsIngress1")</p>
-				<p class="icon-ingress">@Model?.Value("aboutUsIcon")</p>
-				<p class="about-ingress">@Model?.Value("aboutUsIngress2")</p>
+				<p class="home-ingress">@Model.Value("aboutIngressOne")</p>
+				<p class="icon-ingress">@Model.Value("aboutIngressIcon")</p>
+				<p class="about-ingress">@Model.Value("aboutIngressTwo")</p>
 			</div>
 		</div>
-		<img class="background-image-one" src="" alt="" />
-		<img class="background-image-two" src="" alt="" />
+		<img class="background-image-one" src="@aboutUsBackground1" alt="" />
+		<img class="background-image-two" src="@aboutUsBackground2" alt="" />
 	</div>
 </section>
 
