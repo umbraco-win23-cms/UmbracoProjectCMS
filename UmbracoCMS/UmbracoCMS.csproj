@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\css\aboutPage\" />
     <Folder Include="wwwroot\css\scss\homePage\sections\" />
     <Folder Include="wwwroot\css\scss\misc\" />
   </ItemGroup>

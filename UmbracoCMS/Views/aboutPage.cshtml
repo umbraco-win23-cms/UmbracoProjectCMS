@@ -3,5 +3,52 @@
 
 @{
 	Layout = "mainLayout.cshtml";
+	ViewBag.Title = Model?.Value("pageTitle") ?? null;
+	var logoImage = Model?.Value<IPublishedContent>("headerOnatrixLogo")?.Url() ?? "";
 }
+
+
+
+<section class="header">
+	<div class="container">
+		<div class="address-socialmedia">
+			<div class="address">
+				<p class="address-ingress">@Model?.Value("headerAddress")</p>
+			</div>
+			<div class="socialmedia">
+				<a class="meta"><i class="fa-brands fa-facebook-f"></i></a>
+				<a class="x"><i class="fa-brands fa-x-twitter"></i></a>
+				<a class="linkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+			</div>
+		</div>
+		<div class="navigation-bar">
+			<img class="onatrix-logo" alt="" src="@logoImage" />
+			<div class="site-navigation">
+				<a href="@Model?.Value("headerAboutSiteUrl")">@Model?.Value("headerAboutSite")</a>
+				<a href="@Model?.Value("headerServicesSiteUrl")">@Model?.Value("headerServicesSite")</a>
+				<a href="@Model?.Value("headerProjectsSiteUrl")"> @Model?.Value("headerProjectsSite")</a>
+				<a href="@Model?.Value("headerContactSiteUrl")">@Model?.Value("headerContactSite")</a>
+			</div>
+			<i class="fa-solid fa-magnifying-glass"></i>
+		</div>
+	</div>
+</section>
+
+
+
+<section class="about-us">
+	<div class="background-color">@Model?.Value("aboutUsBackground")</div>
+	<div class="container">
+		<div class="overview">
+			<h2>@Model?.Value("aboutUsHeadline")</h2>
+			<div class="title-page">
+				<p class="home-ingress">@Model?.Value("aboutUsIngress1")</p>
+				<p class="icon-ingress">@Model?.Value("aboutUsIcon")</p>
+				<p class="about-ingress">@Model?.Value("aboutUsIngress2")</p>
+			</div>
+		</div>
+		<img class="background-image-one" src="" alt="" />
+		<img class="background-image-two" src="" alt="" />
+	</div>
+</section>
 
