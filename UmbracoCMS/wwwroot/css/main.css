@@ -308,6 +308,7 @@
   color: #D9C3A9;
   font-family: "Poppins", sans-serif;
   text-align: left;
+  margin-bottom: -20px;
 }
 .success-story .container .success-story-numbers-div .numbers-left p {
   font-size: 14px;
@@ -327,6 +328,7 @@
   font-family: "Poppins", sans-serif;
   text-align: center;
   margin-left: 0;
+  margin-bottom: -20px;
 }
 .success-story .container .success-story-numbers-div .numbers-middle p {
   font-size: 14px;
@@ -341,6 +343,7 @@
   color: #D9C3A9;
   font-family: "Poppins", sans-serif;
   text-align: right;
+  margin-bottom: -20px;
 }
 .success-story .container .success-story-numbers-div .numbers-right p {
   font-size: 14px;
