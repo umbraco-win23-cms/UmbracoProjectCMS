@@ -320,6 +320,19 @@
     .container {
         position: relative;
 
+        .video-wrapper {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+
+            .success-story-video {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+        }
+
         .success-story-headline {
             position: relative;
             z-index: 2;
@@ -416,7 +429,11 @@
             }
         }
 
-        img {
+        .vide-img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 20px auto;
         }
 
         .worldMap {

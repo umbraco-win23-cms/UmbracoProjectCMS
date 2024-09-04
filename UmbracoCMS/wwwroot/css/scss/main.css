@@ -275,6 +275,17 @@
 .success-story .container {
   position: relative;
 }
+.success-story .container .video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.success-story .container .video-wrapper .success-story-video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 .success-story .container .success-story-headline {
   position: relative;
   z-index: 2;
@@ -351,6 +362,12 @@
   color: #FFFFFF;
   font-family: "Poppins", sans-serif;
   text-align: right;
+}
+.success-story .container .vide-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
 }
 .success-story .container .worldMap {
   position: absolute;
