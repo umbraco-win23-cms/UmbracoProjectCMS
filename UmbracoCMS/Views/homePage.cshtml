@@ -10,6 +10,8 @@
 	var trustedImage1 = Model?.Value<IPublishedContent>("trustedImage1")?.Url() ?? "";
 	var trustedImage2 = Model?.Value<IPublishedContent>("trustedImage2")?.Url() ?? "";
 	var successStoryBackgroundImage = Model?.Value<IPublishedContent>("successStoryBackgroundImage")?.Url() ?? "";
+	var successStoryVideo = Model?.Value<IPublishedContent>("successStoryVideo")?.Url() ?? "";
+
 }
 
 <!--Header section-->
@@ -153,7 +155,7 @@
 				</p>
 			</div>
 		</div>
-		<img /> <!--video, how do we do here?-->
+        <img src="@successStoryVideo" alt="@Model.Value("successStoryVideo")" class="video-img"/>
 		<img src="@successStoryBackgroundImage" alt="@Model.Value("successStoryBackgroundImage")" class="worldMap" />
 	</div>
 </section>
