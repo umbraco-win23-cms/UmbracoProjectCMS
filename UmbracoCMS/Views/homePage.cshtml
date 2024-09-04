@@ -9,6 +9,7 @@
 	var logoImage = Model?.Value<IPublishedContent>("headerOnatrixLogo")?.Url() ?? "";
 	var trustedImage1 = Model?.Value<IPublishedContent>("trustedImage1")?.Url() ?? "";
 	var trustedImage2 = Model?.Value<IPublishedContent>("trustedImage2")?.Url() ?? "";
+	var successStoryBackgroundImage = Model?.Value<IPublishedContent>("successStoryBackgroundImage")?.Url() ?? "";
 }
 
 <!--Header section-->
@@ -153,7 +154,7 @@
 			</div>
 		</div>
 		<img /> <!--video, how do we do here?-->
-		<img class="worldMap" />
+		<img src="@successStoryBackgroundImage" alt="@Model.Value("successStoryBackgroundImage")" class="worldMap" />
 	</div>
 </section>
 
