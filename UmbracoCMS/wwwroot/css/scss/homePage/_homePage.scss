@@ -315,11 +315,15 @@
     background-color: #4F5955;
     height: 100vh;
     margin-top: -30px;
+    position: relative;
 
     .container {
-
+        position: relative;
 
         .success-story-headline {
+            position: relative;
+            z-index: 2;
+
             h5 {
                 font-size: 14px;
                 font-weight: bold;
@@ -340,8 +344,11 @@
         }
 
         .success-story-numbers-div {
+            position: relative;
+            z-index: 2;
             display: flex;
             justify-content: center;
+            top: -80px;
 
 
 
@@ -353,6 +360,7 @@
                     color: #D9C3A9;
                     font-family: "Poppins", sans-serif;
                     text-align: left;
+                    margin-bottom: -20px;
                 }
 
                 p {
@@ -375,6 +383,7 @@
                     font-family: "Poppins", sans-serif;
                     text-align: center;
                     margin-left: 0;
+                    margin-bottom: -20px;
                 }
 
                 p {
@@ -394,6 +403,7 @@
                     color: #D9C3A9;
                     font-family: "Poppins", sans-serif;
                     text-align: right;
+                    margin-bottom: -20px;
                 }
 
                 p {
@@ -410,6 +420,17 @@
         }
 
         .worldMap {
+            position: absolute;
+            top: 15%;
+            left: 0;
+            width: 60%;
+            height: 90%;
+            transform: translateX(-50%);
+            background-image: url('@successStoryBackgroundImage');
+            background-position: center;
+            left: 50%;
+            background-size: contain;
+            z-index: 1;
         }
     }
 }

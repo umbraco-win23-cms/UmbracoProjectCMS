@@ -270,6 +270,14 @@
   background-color: #4F5955;
   height: 100vh;
   margin-top: -30px;
+  position: relative;
+}
+.success-story .container {
+  position: relative;
+}
+.success-story .container .success-story-headline {
+  position: relative;
+  z-index: 2;
 }
 .success-story .container .success-story-headline h5 {
   font-size: 14px;
@@ -288,8 +296,11 @@
   margin-top: -30px;
 }
 .success-story .container .success-story-numbers-div {
+  position: relative;
+  z-index: 2;
   display: flex;
   justify-content: center;
+  top: -80px;
 }
 .success-story .container .success-story-numbers-div .numbers-left .number {
   font-size: 90px;
@@ -297,6 +308,7 @@
   color: #D9C3A9;
   font-family: "Poppins", sans-serif;
   text-align: left;
+  margin-bottom: -20px;
 }
 .success-story .container .success-story-numbers-div .numbers-left p {
   font-size: 14px;
@@ -316,6 +328,7 @@
   font-family: "Poppins", sans-serif;
   text-align: center;
   margin-left: 0;
+  margin-bottom: -20px;
 }
 .success-story .container .success-story-numbers-div .numbers-middle p {
   font-size: 14px;
@@ -330,6 +343,7 @@
   color: #D9C3A9;
   font-family: "Poppins", sans-serif;
   text-align: right;
+  margin-bottom: -20px;
 }
 .success-story .container .success-story-numbers-div .numbers-right p {
   font-size: 14px;
@@ -337,4 +351,17 @@
   color: #FFFFFF;
   font-family: "Poppins", sans-serif;
   text-align: right;
+}
+.success-story .container .worldMap {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 60%;
+  height: 90%;
+  transform: translateX(-50%);
+  background-image: url("@successStoryBackgroundImage");
+  background-position: center;
+  left: 50%;
+  background-size: contain;
+  z-index: 1;
 }
